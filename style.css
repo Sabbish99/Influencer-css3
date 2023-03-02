@@ -1,0 +1,155 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.heads {
+    display: flex;
+    justify-content: center;
+}
+
+.header-div {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-menu a {
+    text-decoration: none;
+    padding-left: 35px;
+    color: black;
+}
+
+
+/* ---------------
+----------------Start your Journey as 
+Influencer ------------------
+------------------------*/
+.sec-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.influencer {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.influencer-title {
+    font-size: 52px;
+}
+
+.influencer p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-1 {
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    background-color: #E02C6D;
+    border: none;
+    height: 44px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.bg-image {
+    background-image: url("images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    margin-left: 100px;
+}
+
+
+
+/*---------------- 
+------------------ 
+---------------
+ logo logologo logologo
+logologologo logo logo---------------------
+----------------------------------
+----------------------------------------
+ */
+.logos {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/*---------------- 
+------------------ 
+---------------
+  end logo logologo logologo
+logologologo logo logo---------------------
+----------------------------------
+----------------------------------------
+ */
+
+
+
+/*------------
+ -----------------
+ ---------------- Popular Collection start----------
+ ----------------
+ ------------- */
+.popular-collections {
+    display: flex;
+    justify-content: center;
+}
+
+.popular-collection {
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 10px;
+
+}
+
+.collections {
+
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: .5px .5px 5px;
+}
+
+.flexible {
+    display: flex;
+    align-items: center;
+}
+
+.flexible p {
+    padding-left: 10px;
+}
+
+
+.see-more-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.see-more {
+    display: flex;
+    width: 1050px;
+    justify-content: end;
+    color: #E02C6D;
+    font-weight: 700;
+
+}
