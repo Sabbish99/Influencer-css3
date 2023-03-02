@@ -269,6 +269,10 @@ footer h5 {
         padding: 10px;
     }
 
+    .influencer-title {
+        font-size: 25px;
+    }
+
     .influencer img {
         width: 60%;
         display: flex;
